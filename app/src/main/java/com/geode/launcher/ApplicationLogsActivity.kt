@@ -1,4 +1,4 @@
-package com.geode.launcher
+package com.geode.geodashlaunch
 
 import android.content.ClipData
 import android.content.ClipboardManager
