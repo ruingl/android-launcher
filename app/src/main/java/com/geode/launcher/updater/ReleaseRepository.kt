@@ -25,7 +25,7 @@ class ReleaseRepository(private val httpClient: OkHttpClient) {
     }
 
     suspend fun getLatestLauncherRelease(): Release? {
-        val releasePath = "$GITHUB_API_BASE/repos/geode-sdk/android-launcher/releases/latest"
+        val releasePath = "$GITHUB_API_BASE/repos/ruingl/android-launcher/releases/latest"
 
         val url = URL(releasePath)
 
