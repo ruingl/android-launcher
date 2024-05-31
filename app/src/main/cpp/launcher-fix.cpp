@@ -28,7 +28,7 @@ private:
 };
 
 extern "C"
-JNIEXPORT void JNICALL Java_com_geode_launcher_LauncherFix_setDataPath(
+JNIEXPORT void JNICALL Java_com_geode_geodashlaunch_LauncherFix_setDataPath(
         JNIEnv *env,
         jobject,
         jstring data_path
@@ -42,7 +42,7 @@ JNIEXPORT void JNICALL Java_com_geode_launcher_LauncherFix_setDataPath(
 }
 
 extern "C"
-JNIEXPORT void JNICALL Java_com_geode_launcher_LauncherFix_setOriginalDataPath(
+JNIEXPORT void JNICALL Java_com_geode_geodashlaunch_LauncherFix_setOriginalDataPath(
         JNIEnv *env,
         jobject,
         jstring data_path

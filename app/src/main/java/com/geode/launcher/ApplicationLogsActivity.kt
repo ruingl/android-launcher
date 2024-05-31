@@ -1,4 +1,4 @@
-package com.geode.launcher
+package com.geode.geodashlaunch
 
 import android.content.ClipData
 import android.content.ClipboardManager
@@ -66,14 +66,14 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.geode.launcher.log.LogLine
-import com.geode.launcher.log.LogPriority
-import com.geode.launcher.log.LogViewModel
-import com.geode.launcher.ui.theme.GeodeLauncherTheme
-import com.geode.launcher.ui.theme.LocalTheme
-import com.geode.launcher.ui.theme.Theme
-import com.geode.launcher.ui.theme.Typography
-import com.geode.launcher.utils.PreferenceUtils
+import com.geode.geodashlaunch.log.LogLine
+import com.geode.geodashlaunch.log.LogPriority
+import com.geode.geodashlaunch.log.LogViewModel
+import com.geode.geodashlaunch.ui.theme.GeodeLauncherTheme
+import com.geode.geodashlaunch.ui.theme.LocalTheme
+import com.geode.geodashlaunch.ui.theme.Theme
+import com.geode.geodashlaunch.ui.theme.Typography
+import com.geode.geodashlaunch.utils.PreferenceUtils
 import kotlinx.coroutines.launch
 
 class ApplicationLogsActivity : ComponentActivity() {

@@ -1,4 +1,4 @@
-package com.geode.launcher
+package com.geode.geodashlaunch
 
 import android.content.ActivityNotFoundException
 import android.content.Context
@@ -57,18 +57,18 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.geode.launcher.updater.ReleaseViewModel
-import com.geode.launcher.ui.theme.GeodeLauncherTheme
-import com.geode.launcher.ui.theme.LocalTheme
-import com.geode.launcher.ui.theme.Theme
-import com.geode.launcher.ui.theme.Typography
-import com.geode.launcher.utils.Constants
-import com.geode.launcher.utils.LaunchUtils
-import com.geode.launcher.utils.PreferenceUtils
-import com.geode.launcher.updater.ReleaseManager
-import com.geode.launcher.utils.GamePackageUtils
-import com.geode.launcher.utils.GeodeUtils
-import com.geode.launcher.utils.useCountdownTimer
+import com.geode.geodashlaunch.updater.ReleaseViewModel
+import com.geode.geodashlaunch.ui.theme.GeodeLauncherTheme
+import com.geode.geodashlaunch.ui.theme.LocalTheme
+import com.geode.geodashlaunch.ui.theme.Theme
+import com.geode.geodashlaunch.ui.theme.Typography
+import com.geode.geodashlaunch.utils.Constants
+import com.geode.geodashlaunch.utils.LaunchUtils
+import com.geode.geodashlaunch.utils.PreferenceUtils
+import com.geode.geodashlaunch.updater.ReleaseManager
+import com.geode.geodashlaunch.utils.GamePackageUtils
+import com.geode.geodashlaunch.utils.GeodeUtils
+import com.geode.geodashlaunch.utils.useCountdownTimer
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.collectLatest
 import java.net.ConnectException
