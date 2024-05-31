@@ -75,7 +75,7 @@
 
         <provider
             android:name=".UserDirectoryProvider"
-            android:authorities="com.geode.launcher.user"
+            android:authorities="com.geode.geodashlaunch.user"
             android:exported="true"
             android:grantUriPermissions="true"
             android:permission="android.permission.MANAGE_DOCUMENTS">
@@ -85,7 +85,7 @@
         </provider>
         <provider
             android:name="androidx.core.content.FileProvider"
-            android:authorities="com.geode.launcher.fileprovider"
+            android:authorities="com.geode.geodashlaunch.fileprovider"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data
