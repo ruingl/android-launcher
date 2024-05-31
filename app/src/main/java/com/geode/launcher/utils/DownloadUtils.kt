@@ -1,4 +1,4 @@
-package com.geode.launcher.utils
+package com.geode.geodashlaunch.utils
 
 import android.os.Build
 import android.os.FileUtils
