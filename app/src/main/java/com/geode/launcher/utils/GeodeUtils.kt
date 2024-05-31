@@ -366,7 +366,7 @@ object GeodeUtils {
     }
 
     fun isGeodeUri(uri: Uri): Boolean {
-        return "com.geode.launcher.user" == uri.authority
+        return "com.geode.geodashlaunch.user" == uri.authority
     }
 
     private const val INTERNAL_PERMISSION_PREFIX = "geode.permission_internal"
