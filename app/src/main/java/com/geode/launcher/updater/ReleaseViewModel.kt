@@ -1,4 +1,4 @@
-package com.geode.launcher.updater
+package com.geode.geodashlaunch.updater
 
 import android.app.Application
 import androidx.lifecycle.ViewModel
