@@ -1,6 +1,6 @@
-package com.geode.launcher.updater
+package com.geode.geodashlaunch.updater
 
-import com.geode.launcher.utils.DownloadUtils.executeCoroutine
+import com.geode.geodashlaunch.utils.DownloadUtils.executeCoroutine
 import kotlinx.datetime.Clock
 import kotlinx.datetime.DateTimeUnit
 import kotlinx.datetime.Instant
