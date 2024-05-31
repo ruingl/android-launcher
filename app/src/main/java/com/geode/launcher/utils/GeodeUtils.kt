@@ -1,4 +1,4 @@
-package com.geode.launcher.utils
+package com.geode.geodashlaunch.utils
 
 import android.Manifest
 import android.content.ActivityNotFoundException
@@ -20,12 +20,12 @@ import androidx.annotation.Keep
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import androidx.documentfile.provider.DocumentFile
-import com.geode.launcher.BuildConfig
-import com.geode.launcher.R
-import com.geode.launcher.UserDirectoryProvider
-import com.geode.launcher.activityresult.GeodeOpenFileActivityResult
-import com.geode.launcher.activityresult.GeodeOpenFilesActivityResult
-import com.geode.launcher.activityresult.GeodeSaveFileActivityResult
+import com.geode.geodashlaunch.BuildConfig
+import com.geode.geodashlaunch.R
+import com.geode.geodashlaunch.UserDirectoryProvider
+import com.geode.geodashlaunch.activityresult.GeodeOpenFileActivityResult
+import com.geode.geodashlaunch.activityresult.GeodeOpenFilesActivityResult
+import com.geode.geodashlaunch.activityresult.GeodeSaveFileActivityResult
 import java.io.File
 import java.lang.ref.WeakReference
 import kotlin.system.exitProcess
